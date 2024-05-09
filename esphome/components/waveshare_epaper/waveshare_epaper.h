@@ -556,7 +556,7 @@ class WaveshareEPaper7P5InBV2 : public WaveshareEPaper {
   int get_height_internal() override;
 };
 
-class WaveshareEPaper7P5InBV3 : public WaveshareEPaper {
+class WaveshareEPaper7P5InBV3 : public WaveshareEPaperBWR {
  public:
   bool wait_until_idle_();
 
